@@ -1,0 +1,45 @@
+.navbar{
+    background-color: #F3A3C8;
+    position: sticky;
+}
+
+.dropdown-menu{
+    background-color: #F6BDD0;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.dropdown-item:hover{
+    background-color: #EF78AD;
+    animation: 0.3s;
+    border-radius: 10px 10px 0px 0px;
+}
+#bolo-aniversario:hover{
+    background-color: #EF78AD;
+    animation: 0.3s;
+    border-radius: 0px 0px 0px 0px;
+}
+#bolo-pote:hover{
+    background-color: #EF78AD;
+    animation: 0.3s;
+    border-radius: 0px 0px 10px 10px;
+}
+main{
+    text-align: center;
+    font-family: cursive;
+    background-color: #F6BDD0;
+    position: static;
+    height: 35em;
+}
+
+#carouselExampleIndicators{
+    width: 50%;
+    position: relative;
+    top: 1rem;
+    left: 25em;
+}
+
+h1{
+    padding-top: 20px;
+}
+
