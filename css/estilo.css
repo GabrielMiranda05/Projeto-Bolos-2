@@ -1,12 +1,14 @@
 .navbar{
     background-color: #F3A3C8;
     position: sticky;
+    overflow: hidden;
 }
 
 .dropdown-menu{
     background-color: #F6BDD0;
     border-radius: 10px;
     padding: 0px;
+    position: relative;
 }
 
 .dropdown-item:hover{
@@ -39,7 +41,37 @@ main{
     left: 25em;
 }
 
+.container{
+    display: flex;
+}
+
 h1{
     padding-top: 20px;
 }
+
+#card-bolo{
+    display: block;
+    max-width: 30%;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    font-family: sans-serif;
+    border: none;
+}
+
+#card-bolo img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+#btn-comprar{
+    border-radius: 20px;
+    color: black;
+    background-color: #EF78AD;
+    border: none;
+}
+
+#btn-comprar:hover{
+    background-color: #F6BDD0;
+    opacity: 0.7;
+}
+
 
